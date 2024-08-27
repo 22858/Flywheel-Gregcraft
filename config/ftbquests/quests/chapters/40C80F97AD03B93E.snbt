@@ -1,0 +1,1055 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "40C80F97AD03B93E"
+	group: "6CF96DBC43DD24C9"
+	hide_quest_until_deps_visible: true
+	icon: "create:brass_casing"
+	id: "40C80F97AD03B93E"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["47A9326BF7B7D56B"]
+			description: [
+				"        没有安山合金，就无法制作机械动力中的绝大多数物品。你需要混合铁粒和安山岩来制作安山合金，在拥有动力搅拌机后，使用机器进行混合可以节省一半的材料。"
+				"        提示：生存初期的金属粒（包括铁粒）可以通过消耗大量的燧石研磨金属锭（工作台配方）获得。"
+				""
+				"        在获取安山合金后，你需要制作安山机壳作为前期机器的外壳材料。安山机壳可以通过对去皮原木使用安山合金获得。同理，后面遇到的其他机壳都可以通过将对应材料应用到去皮原木上获得。"
+			]
+			icon: "create:andesite_alloy"
+			id: "16AF2F73617701CC"
+			rewards: [{
+				id: "417D6D7EA6058522"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			shape: "square"
+			size: 2.0d
+			subtitle: "获得安山合金"
+			tasks: [
+				{
+					id: "50E3D725DD593824"
+					item: "gtceu:andesite_alloy_ingot"
+					type: "item"
+				}
+				{
+					id: "212A218B5CF4D645"
+					item: "create:andesite_casing"
+					type: "item"
+				}
+			]
+			title: "第一种合金"
+			x: -3.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["45C962A643A3C85D"]
+			description: [
+				"经过一番折腾，你应该有一些基础的机器设施了。"
+				"但是，这些机器的功能都还很低级。没有黄铜合金，你无法制作更高级的机器，也没法制作更精密的机械装置，从而与更多的生产配方绝缘。"
+				"为了制造黄铜（以及发展格雷科技需要的青铜），你需要有一种强大而又可控的热源。一般的火力量太小了，熔岩又难以控制。于是，你把目光转向了下界的烈焰人。"
+				"烈焰人的攻击性较强，直接利用它的力量显然是危险的，你需要制作一个笼子来捕捉它。拿着空的烈焰人燃烧室，对着烈焰人右键即可完成捕捉。"
+				""
+				"随后你就可以将燃烧室放置在工作盆下面，以提供加热配方所需的热量了。不过在开始加热之前，你需要给烈焰人喂食它所需要的燃料。"
+				"在能够制造烈焰蛋糕后，你可以给烈焰人喂食烈焰蛋糕来实现超级加热，超经验的获取，以及异彩时代的大部分配方都需要在超级加热下进行！"
+				"除了用于加热和超级加热配方，烈焰人燃烧室还可用于给蒸汽锅炉供热，或进行自动化烹饪。"
+			]
+			icon: "create:blaze_burner"
+			id: "2294BA265E76EFC9"
+			require_sequential_tasks: true
+			rewards: [{
+				count: 2
+				id: "2DBE9E9F790BAC1A"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			shape: "square"
+			size: 2.0d
+			subtitle: "用空的烈焰人燃烧室捕获烈焰人，解锁加热配方"
+			tasks: [
+				{
+					icon: "create:empty_blaze_burner"
+					id: "27EA6E5DF9B366C7"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+				{
+					id: "4A415F407BE0E495"
+					item: "create:blaze_burner"
+					type: "item"
+				}
+			]
+			title: "炙热时刻！"
+			x: 6.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2294BA265E76EFC9"]
+			description: [
+				"你需要将铜和锌在加热下搅拌以获得黄铜。"
+				"使用黄铜制造的机器可以进行精确的调节，从事精密的工作。拥有黄铜后，就可以开始搭建更加高级复杂的机械装置和生产线了。"
+			]
+			icon: "create:brass_ingot"
+			id: "65DDEA2AF978F2A9"
+			rewards: [{
+				count: 4
+				id: "75A21F4C46E63CF2"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			shape: "square"
+			size: 2.0d
+			subtitle: "获得黄铜，解锁高级的机械动力物品"
+			tasks: [
+				{
+					id: "29579D4763C1B0E5"
+					item: "gtceu:brass_ingot"
+					type: "item"
+				}
+				{
+					id: "523A5EF27C34FF19"
+					item: "create:brass_casing"
+					type: "item"
+				}
+			]
+			title: "黄澄澄的黄铜！"
+			x: 10.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["77CC1C77F34FCB48"]
+			description: [
+				"        你是否梦想着建造一个巨大的铁路网络，乘着火车四处旅行？"
+				"        你是否厌倦了原版里那些可怜的铁轨和矿车？"
+				"        现在，你可以建造机械动力特有的铁路系统！铺设更宽的铁轨、建造贴近现实的列车、在铁路上设置车站、信号机，使用列车控制台模拟真实的驾驶体验！"
+				"                &o&l[完成此任务将解锁“支线：世界建设”中“铁路系统”部分]"
+			]
+			id: "6724BCD3906DD7A5"
+			size: 1.5d
+			subtitle: "制造列车机壳，开始你的铁路建设！"
+			tasks: [{
+				id: "6A4FC4753A3E2019"
+				item: "create:railway_casing"
+				type: "item"
+			}]
+			title: "火车轰鸣！"
+			x: 26.25d
+			y: 0.75d
+		}
+		{
+			dependencies: ["45C962A643A3C85D"]
+			description: [
+				"红石具有独特的电子性质，这使得其很适合作为电路的基础材料。假如将其与石英结合在一起，则能够发挥出更好的性能。"
+				"将红石与石英混合得到玫瑰石英后，对其进行打磨，再往下垫一块铁板，即可得到一个玫瑰石英电子管。"
+				"尽管功能上比较简单，不过作为机械动力机器的电子元件已经足够了。"
+			]
+			icon: "create:electron_tube"
+			id: "274236D7A9DE8C32"
+			require_sequential_tasks: true
+			rewards: [{
+				count: 2
+				id: "6AEA1FAB574D8997"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			shape: "square"
+			size: 2.0d
+			subtitle: "获取可简单处理、显示信息的电子管"
+			tasks: [
+				{
+					icon: "create:polished_rose_quartz"
+					id: "0B2FF6E98B1F37C5"
+					item: "create:electron_tube"
+					type: "item"
+				}
+				{
+					id: "175C74AC6911528C"
+					item: "create:electron_tube"
+					type: "item"
+				}
+			]
+			title: "世界上第一个电子管"
+			x: 10.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["16AF2F73617701CC"]
+			description: [
+				"        处理流体是机械动力里的一个重要内容，你需要制造一系列流体处理部件，同时会消耗大量的铜。"
+				"后两页中有关于机械动力流体处理的介绍。"
+				"{@pagebreak}"
+				"&l流体的抽取&r"
+				"        要抽取流体，可以直接使用流体管道，或是依靠软管滑轮。在管道后面装上动力泵并接入应力，并确保动力泵方向正确（看上面的箭头，箭头代表了流体的流向），即可对实现对流体的抽取。"
+				"        需要注意的是，动力泵的作用范围为沿着管道16格长的距离，超出这个距离则需要更多的动力泵进行中继，否则无法将流体运送到指定位置。"
+				"        对于水而言，只要被抽取水源的相邻两格及以上有水源方块，即可实现无限抽取。而对于熔岩，必须要有10000格（默认设置）以上的熔岩源方块相连才可视为无限抽取（对于其他流体也是如此）。"
+				"        流体储罐中的流体也可以被抽取，使用分液器也可以从物品形式的流体容器中抽取流体，比如桶。"
+				"{@pagebreak}"
+				"&l流体的储存&r"
+				"        流体经过动力泵作用后会流向某处，可以是流体管道的另一处裸露的开口，流体会从开口中流出（若是液态经验则会流出经验球，若为龙息则会流出能造成伤害的龙息喷雾）。"
+				"        流体也可以流入流体储罐中进行储存，或是流入工作盆等装置中用于合成配方。"
+				"        注液器里也可以储存流体，用于向下方的物品进行浇注（如果有配方的话），注液器也可以用于序列组装产线中。"
+			]
+			icon: "create:copper_casing"
+			id: "00F495410A45A850"
+			rewards: [{
+				count: 4
+				id: "1AD36CDBBE837001"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			shape: "square"
+			size: 2.0d
+			subtitle: "简单的铜质管网"
+			tasks: [
+				{
+					id: "4A3A394473C7E79A"
+					item: "create:copper_casing"
+					type: "item"
+				}
+				{
+					id: "337C6F5DBAA8871C"
+					item: "create:fluid_pipe"
+					type: "item"
+				}
+				{
+					id: "23332CD13E6CD45E"
+					item: "create:mechanical_pump"
+					type: "item"
+				}
+				{
+					id: "00846AC598ECFE06"
+					item: "create:spout"
+					type: "item"
+				}
+			]
+			title: "流体处理"
+			x: 10.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["1964764D9980434C"]
+			description: [
+				"想要更精确地对转速进行调节？组装自动转运物品的动力臂？或是制造更高级的工具和机器？你需要精密构件！"
+				"正因为“精密”，你需要搭建一条序列生产线来生产它，按照特定的顺序对原料进行加工。"
+				"精密构件的生产从金板开始，用机械手依次装上小齿轮、大齿轮、铁粒（严格按照顺序加工），随后重复数次该过程。"
+				"遵循这套流程，多数时候可以生产出能用的精密构件，但也有一定概率会生产出废品，至于会得到什么就要看你的运气了……"
+			]
+			id: "2730F5FACA44852C"
+			rewards: [{
+				count: 6
+				id: "3CCF87DA3826C281"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			shape: "square"
+			size: 2.0d
+			subtitle: "制造精密构件，这是所有高级构件的基础"
+			tasks: [{
+				id: "604E4A2744D34659"
+				item: "create:precision_mechanism"
+				type: "item"
+			}]
+			title: "高精制造"
+			x: 17.0d
+			y: 1.0d
+		}
+		{
+			dependencies: [
+				"00F495410A45A850"
+				"2730F5FACA44852C"
+			]
+			description: [
+				"        电子构件是你在初期可以制造的简单电路。"
+				"        电子构件的制造同样需要一套序列组装流程，但比制造精密构件的要更复杂。"
+			]
+			id: "4CD1BB1DD8BE3FE4"
+			rewards: [{
+				id: "6613F70C84698F27"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			shape: "square"
+			size: 2.0d
+			subtitle: "制造电子构件"
+			tasks: [{
+				id: "1FB25B8B5B1A6401"
+				item: "kubejs:electronic_mechanism"
+				type: "item"
+			}]
+			title: "机电一体"
+			x: 17.0d
+			y: 5.0d
+		}
+		{
+			dependencies: ["50158AF63B1ECFBA"]
+			description: ["        黑曜石粉是制造坚固板和异彩化合物的重要原料，将黑曜石投入粉碎轮中粉碎以得到它。如果运气够好，黑曜石没有被完全粉碎，你可以将其再次投进粉碎轮中，以获得更多的黑曜石粉。"]
+			id: "77CC1C77F34FCB48"
+			rewards: [{
+				id: "0478D99415CD6643"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			shape: "square"
+			size: 2.0d
+			subtitle: "优质高强度材料基底"
+			tasks: [{
+				id: "55483820BE36BC53"
+				item: "gtceu:obsidian_dust"
+				type: "item"
+			}]
+			title: "将黑曜石磨成粉？"
+			x: 24.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["65DDEA2AF978F2A9"]
+			description: [
+				"当你生产出电子构件，准备开始搭建动力合成器和粉碎轮时……"
+				"你发现，风车提供的那点可怜的应力已经跟不上需求了。一个21格的满转速动力合成站需要五千多su的应力，而一对满转速粉碎轮需要4096su的应力！换言之，它们能很轻松的将一个满配风车的应力吃空。"
+				"是时候需要一种更强大的应力来源了——蒸汽机。尽管不同于格雷科技中的蒸汽机，但只要给它通上水、热源，锅炉的空间足够，就可以产出远超风车的应力！"
+				"在被动状态下（由非加热状态的烈焰人或其他热源提供热量），其便能产生2048su的应力。而普通加热状态烈焰人能将蒸汽锅炉的级别提升到最高9级，提供147456su的应力。若为超级加热状态则再翻一倍，294912su！"
+				"如此大量的应力，已经能够应对除了基岩采掘机以外的任何场景了。"
+			]
+			hide_dependency_lines: true
+			id: "417B85E654B1B73E"
+			size: 1.5d
+			subtitle: "制造机械动力里的蒸汽机以提供大量应力"
+			tasks: [{
+				id: "6F20495326636461"
+				item: "create:steam_engine"
+				type: "item"
+			}]
+			title: "最早的蒸汽机？"
+			x: 6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"15050FC465F764BD"
+				"4E5CE5DA1C3DAF80"
+			]
+			description: [
+				"        将金属压成片是工业生产的重要一步。"
+				"        机械动力时期涉及到的金属都可以通过动力辊压机进行压片，在辊压机下面放置待处理物品，物品可以放在置物台上，也可以在传送带上，甚至还可以直接扔在地上。"
+				"        除了将金属压成片，动力辊压机还可以用于压块配方、序列组装等场合。"
+				""
+				"        提示：动力辊压机的生产需要铁块，可以将粗铁矿压成块状后投入熔炉中熔炼得到。"
+			]
+			icon: "create:mechanical_press"
+			id: "45C962A643A3C85D"
+			require_sequential_tasks: true
+			rewards: [{
+				count: 4
+				id: "252B7887B3A4D709"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.5d
+			subtitle: "制造动力辊压机，并压制铁板"
+			tasks: [
+				{
+					id: "42CFA0929A999903"
+					item: "create:mechanical_press"
+					type: "item"
+				}
+				{
+					id: "4D73EEE8CB3D2E9A"
+					item: "gtceu:iron_plate"
+					type: "item"
+				}
+			]
+			title: "压压更健康"
+			x: 2.25d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2294BA265E76EFC9"]
+			description: [
+				"你需要将铜和锡在加热下搅拌以获得青铜。"
+				"青铜开启了通往格雷科技的大门，搭建蒸汽生产线需要大量的青铜。"
+			]
+			icon: "gtceu:bronze_ingot"
+			id: "239A27D99D775714"
+			rewards: [{
+				count: 4
+				id: "6CDBB15B28194E11"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 3.0d
+			subtitle: "获得青铜，以及……进入蒸汽时代？"
+			tasks: [{
+				id: "6C11A6F1329F13EF"
+				item: "gtceu:bronze_ingot"
+				type: "item"
+			}]
+			title: "梆梆硬的青铜！"
+			x: 9.0d
+			y: 6.0d
+		}
+		{
+			dependencies: [
+				"65DDEA2AF978F2A9"
+				"274236D7A9DE8C32"
+			]
+			description: [
+				"很多时候，手动操作是一件麻烦的事情，为啥不让一个永不疲倦的手来帮你代劳呢？"
+				"一个黄铜机械手具有部分玩家的手部功能，包括使用和破坏/攻击，可以使用扳手在两种模式之间切换。"
+				"有了机械手，可以实现许多原本需要玩家手操的功能，比如自动植树、喂食烈焰人、精准采矿、打印建筑等。"
+			]
+			id: "1964764D9980434C"
+			rewards: [{
+				id: "735BBF8133E779BA"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.5d
+			subtitle: "你的第三？只手"
+			tasks: [{
+				id: "6B16059201DE596E"
+				item: "create:deployer"
+				type: "item"
+			}]
+			title: "指引前路"
+			x: 13.5d
+			y: 0.75d
+		}
+		{
+			dependencies: ["15050FC465F764BD"]
+			description: [
+				"看那呼啸的风！你可以搭建风车来将它们转换为应力！"
+				"有关如何搭建一个风车结构，可以参阅风车轴承的思索界面。"
+				"风车是目前初期可以接触到的最大的应力来源，一个满配风车的占用空间相当大，还需要消耗大量的风帆，但可以提供高达8192su的应力！这些应力足以支撑起你的基地中最初的一批机器设施了。"
+				"此外，你还可以将风车和一些旋转相关的机器结构有机结合，比如圆形树场、农场等。"
+			]
+			hide_dependency_lines: true
+			id: "5E841F2BFCB55E7A"
+			size: 1.5d
+			subtitle: "制造风车以通过风力产生应力"
+			tasks: [{
+				id: "1D3510FCA34BF7E7"
+				item: "create:windmill_bearing"
+				type: "item"
+			}]
+			title: "荷兰风情"
+			x: 3.75d
+			y: -1.5d
+		}
+		{
+			dependencies: ["15050FC465F764BD"]
+			description: [
+				"世界中到处都存在流体，使用一个水车，便可以将流体流动时的重力转化为应力。"
+				"你可以将水车沿任何一个面放置，驱动水车的流体也不一定是水，甚至可以是熔岩！"
+				"不过，单个水车产生的应力同样少得可怜。一个普通水车只能产生256su的应力，和手摇曲柄相当。而即便是大型水车，产生的应力量也只比前者多出一倍，更何况它们提供的转速也非常慢。"
+				"但是，水车的驱动不需要消耗人力，而且可以将多个水车堆叠在一起以增加应力产出。因此，水车可作为工业基地的初期应力来源，或者狭小空间内中小型机器设施的应力来源。"
+			]
+			hide_dependency_lines: true
+			icon: "create:large_water_wheel"
+			id: "1D631BF985A0842B"
+			size: 1.5d
+			subtitle: "制造水车以通过水力产生应力"
+			tasks: [
+				{
+					icon: "create:water_wheel"
+					id: "3E963E8449DEF613"
+					item: "create:water_wheel"
+					type: "item"
+				}
+				{
+					id: "118F3915DB63464F"
+					item: "create:large_water_wheel"
+					type: "item"
+				}
+			]
+			title: "上善若水"
+			x: 1.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["16AF2F73617701CC"]
+			description: [
+				"手摇曲柄构造非常简单，你只需要用手操作即可产生应力。"
+				"但是，它只能产生256su的应力，想要驱动大型机器根本不可能。而且，操作手摇曲柄会消耗大量的力气，你可能需要多准备点粮食。"
+				"不过，由于其简易便携，因此可以用于各种移动场合。将其与动力锯相结合，到处砍砍树也是个不错的用途。"
+			]
+			hide_dependency_lines: true
+			id: "691D9C0D0F75862D"
+			size: 1.5d
+			subtitle: "制造一个手摇曲柄以手动提供应力"
+			tasks: [{
+				icon: "create:hand_crank"
+				id: "363F061C48534AEE"
+				item: "create:hand_crank"
+				type: "item"
+			}]
+			title: "亲自动手"
+			x: -0.75d
+			y: -1.5d
+		}
+		{
+			dependencies: ["16AF2F73617701CC"]
+			hide_dependency_lines: false
+			id: "04D7F012400B0F42"
+			size: 1.5d
+			subtitle: "右边列出了整合包中目前可用的应力来源。"
+			tasks: [{
+				id: "00EBFF34AC92FC8C"
+				title: "应力来源"
+				type: "checkmark"
+			}]
+			title: "应力来源"
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["16AF2F73617701CC"]
+			description: [
+				"没有传动应力的系统，怎么能驱动机器？"
+				"传动杆和大小齿轮是应力网络的基本组件，也是制造绝大多数机械动力机器的的基本部件。"
+				""
+				"齿轮在应力驱动下能够转动。"
+				"要想在垂直于齿轮所在面的方向上传递应力，可以使用传动杆。"
+				"要想在平行于齿轮所在面的方向上传递应力，可以接上其他齿轮。"
+				"大齿轮之间可以通过L形的形式相邻，从而改变应力传动的方向。"
+				""
+				"相同大小的齿轮之间进行传动，转速不变。"
+				"小齿轮和大齿轮之间进行传动，转速比为2：1。"
+				"利用这个规律可以在前期实现转速的升降。"
+				""
+				"需要注意的是，如果应力网络中不同部分装置的转动方向发生冲突，那么冲突的部分将会被破坏并掉落为物品。"
+				""
+				"机械动力机器的运作需要消耗应力。应力由应力源提供，单位为su。"
+				"机器消耗的应力量=每种机器对应的系数×转速"
+				"具体的应力数值可通过穿戴工程师护目镜进行查看。"
+				"当网络中机器消耗的应力量大于所有应力源提供的应力值时，会发生过载现象，网络中的所有机器都无法工作，请时刻关注网络中的剩余应力量。"
+				""
+				"在两个传动杆之间使用物品形式的传送带，以搭建一条传送带，在应力驱动下可以运输物品或实体，工作时其本身并不消耗应力。"
+				"你也可以使用传送带实现较远距离的应力传递。"
+			]
+			icon: "create:cogwheel"
+			id: "15050FC465F764BD"
+			min_required_tasks: 3
+			rewards: [{
+				count: 4
+				id: "2178AE7D3E66FF37"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.5d
+			subtitle: "机械传动的原理和应力系统"
+			tasks: [
+				{
+					id: "6D6E4F864D99AAE6"
+					item: "create:shaft"
+					type: "item"
+				}
+				{
+					id: "65880F9D19D43227"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "612CD43F0DC6D383"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+				{
+					id: "773E538CFC914708"
+					item: "create:belt_connector"
+					type: "item"
+				}
+			]
+			title: "基础三件套"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			dependencies: ["2730F5FACA44852C"]
+			description: [
+				"如果你发展了格雷科技，你还可以通过电动齿轮箱，将EU电力转换为应力！"
+				"一个32A的LV级电动齿轮箱便可提供相当于满配风车的应力量！（而且还是满转速的）"
+				"目前，电动齿轮箱的最高级别仅支持到EV，但一个EV级32A电动齿轮箱产生的最大应力甚至是满级蒸汽锅炉的2倍！而与后者相比，电动齿轮箱的构造非常简单，只需通上电即可工作。这意味着你可以方便地将其用于需要超级多应力的场合，比如基岩采掘机。"
+			]
+			hide_dependency_lines: true
+			id: "3DBBF83F943A195A"
+			size: 1.5d
+			subtitle: "借助格雷科技的发展成果，将电力转换为应力！"
+			tasks: [{
+				id: "4EC9AA199C31C40A"
+				item: "gtceu:lv_electric_gear_box_2a"
+				type: "item"
+			}]
+			title: "电力驱动"
+			x: 8.25d
+			y: -1.5d
+		}
+		{
+			dependencies: ["16AF2F73617701CC"]
+			description: ["铜阀门手轮和手摇曲柄类似，需要手动驱动，而且其应力输出仅为后者的一半。但是，它能精准调节旋转的角度，因此可以用于一些需要精确控制的场合，比如火炮旋转。"]
+			hide_dependency_lines: true
+			id: "101F0CBB19FED4C1"
+			size: 1.5d
+			subtitle: "制造铜阀门手轮"
+			tasks: [{
+				id: "4802F98472EC1D9B"
+				item: "create:copper_valve_handle"
+				type: "item"
+			}]
+			title: "精准调节"
+			x: -0.75d
+			y: 0.75d
+		}
+		{
+			dependencies: [
+				"2730F5FACA44852C"
+				"1DC2161317B8D581"
+			]
+			description: [
+				"        粉碎轮实在太大了，凭你小小的工作台和可怜的双手是无法组装它的。"
+				"        你需要一个动力合成站来帮助你，它能够提供比原版工作台更多的合成槽位，并且能做到一些靠双手无法实现的合成操作。"
+				"        要搭建动力合成站，你需要将许多动力合成器方块拼在一起，并按合成配方的需要搭成特定的形状。对每个动力合成槽位使用扳手可以调整进行合成时物品移动的方向。确保所有槽位上的物品最终都能移动到同一个槽位中并形成成品输出。"
+				"        随后，将合成的原料按动力合成表（JEI）所示放置在合成槽位中，并将未使用的槽位盖上合成槽盖板。一旦正确识别到配方，动力合成站就会开始工作，并从输出口输出产物。"
+				"        你也可以对其通上红石信号来强制合成进行，但如果配方不正确，输出口会返还原料，而不是输出产物。此外，合成时的转速过低也会导致合成失败。"
+			]
+			id: "4429A7DDFB9DD462"
+			rewards: [{
+				id: "07E8928CE2169366"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.5d
+			subtitle: "更大的合成方案"
+			tasks: [{
+				count: 21L
+				id: "7C86ED06F5C2926C"
+				item: "create:mechanical_crafter"
+				type: "item"
+			}]
+			title: "组合！"
+			x: 19.5d
+			y: 3.0d
+		}
+		{
+			dependencies: ["4429A7DDFB9DD462"]
+			description: [
+				"        为了粉碎黑曜石这种坚硬的东西，你需要一个比磨石更强大的粉碎装置，造一对粉碎轮会是不错的选择。"
+				"        粉碎轮的应力消耗较大，请确保你的网络中有充足的剩余应力。"
+				"        粉碎轮可以沿任何朝向放置，安装粉碎轮时需注意让两轮的旋转方向正好相反。随后将要粉碎的物品投入两轮之间，物品的输出方向会根据两轮的旋转方向决定。"
+				""
+				"        需要注意的是，如果向粉碎轮里扔进了无粉碎配方的物品，则不会有任何的产出，投入的物品也会随之消失！"
+				"        你也可以用它来粉碎你讨厌的怪物，但千万不要让自己陷进去了！一旦被粉碎轮卷入，你的身体将被快速粉碎，而你根本无法从中挣脱！"
+			]
+			id: "50158AF63B1ECFBA"
+			rewards: [{
+				count: 6
+				id: "4BACEA47D93F2B60"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.5d
+			subtitle: "一对大家伙"
+			tasks: [{
+				count: 2L
+				id: "3E425008ACF15230"
+				item: "create:crushing_wheel"
+				type: "item"
+			}]
+			title: "粉碎！"
+			x: 21.75d
+			y: 3.0d
+		}
+		{
+			dependencies: ["00F495410A45A850"]
+			description: [
+				"        你身上有着许多经验，它们是记录了你在这个世界上活动的精华。与此同时，这些闪闪发光的东西里还蕴藏着强大的神秘力量，当你修补物品、进行附魔时，它们的作用便已体现出来了。"
+				"        然而，由于种种意外，这些经验总会发生流失，如何将它们储存起来并用于进一步加工呢？"
+				"        制造一个祛魔池吧，它能够吸取你身上的经验，并储存在流体容器中。当你需要经验的时候，你可以将液态经验从容器中泵出来。或者……将液态经验与其他的东西混合，制造出更强大的超级经验？"
+			]
+			id: "733CBDE120B3F268"
+			rewards: [{
+				id: "1D9E67C37E83C8DE"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.5d
+			subtitle: "经验具有物属二相性"
+			tasks: [{
+				id: "3C1B592D18012248"
+				item: "create_enchantment_industry:disenchanter"
+				type: "item"
+			}]
+			title: "汲取经验"
+			x: 15.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["733CBDE120B3F268"]
+			description: [
+				"你费劲千辛万苦浓缩出了超级经验，试试把它浇到什么东西上，比如黄铜锭？"
+				"黄铜锭发出了非常耀眼的光芒，这中间一定有什么特别之处……"
+			]
+			id: "441C3D00095107D0"
+			rewards: [{
+				id: "1655797FA318D4D6"
+				item: "gtceu:silver_credit"
+				type: "item"
+			}]
+			shape: "square"
+			size: 2.0d
+			subtitle: "似乎注了魔"
+			tasks: [{
+				id: "4DED007D165FD317"
+				item: "createchromaticreturn:glowing_ingot"
+				type: "item"
+			}]
+			title: "超越之光"
+			x: 19.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"77CC1C77F34FCB48"
+				"441C3D00095107D0"
+			]
+			description: [
+				"        现在有了黑曜石粉末、有了辉光锭，好奇心驱使你进一步尝试将它们混合到一起，顺便加上打磨好的玫瑰石英。"
+				"        在超级加热下，搅拌之后得到了一种奇异的化合物，它放射出缤纷的色彩。你开始意识到这种化合物并不寻常，它拥有着无限的可能！"
+				""
+				"        转到“异彩时代”章节以继续你的探索吧。"
+			]
+			id: "5B6BAEAB218D7227"
+			rewards: [{
+				id: "3657CFACB3B29CE4"
+				item: "simplyswords:runic_tablet"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				id: "6B1DA9E65E1995D7"
+				item: "createchromaticreturn:chromatic_compound"
+				type: "item"
+			}]
+			title: "大放异彩"
+			x: 24.0d
+			y: 9.0d
+		}
+		{
+			dependencies: ["16AF2F73617701CC"]
+			description: [
+				"        直接将沙子熔炼成玻璃显然是不可能了（至少一般的加热无法做到这一点），要想在前期制造玻璃，你首先需要合成一些玻璃粉。"
+				"        玻璃粉的合成需要石英砂和燧石粉（小撮），在生存初期，你可以通过研钵工具（初期可制作燧石研钵或铁研钵）来制造这些粉末。"
+				"        使用熔炉只能将玻璃粉熔炼成玻璃碎片，将四块玻璃碎片拼合起来可以得到完整的玻璃，共消耗四个玻璃粉。"
+				"        在获得烈焰人燃烧室后，你可以仅用两个玻璃粉在加热条件下压块得到玻璃。"
+				"        解锁超级加热后，你可以将沙子在超级加热条件下直接压块得到玻璃！"
+				"        此外，格雷科技也提供了一些玻璃制取方法，相比机械动力的方法而言拥有更高的产量。"
+			]
+			icon: "minecraft:glass"
+			id: "3908F6D558743C37"
+			require_sequential_tasks: true
+			rewards: [{
+				count: 6
+				id: "79AA17F99E515714"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.5d
+			tasks: [
+				{
+					id: "10495B4BFC26151A"
+					item: {
+						Count: 1
+						id: "itemfilters:tag"
+						tag: {
+							value: "forge:tools/mortars"
+						}
+					}
+					title: "制作研钵"
+					type: "item"
+				}
+				{
+					id: "584A765B333A5493"
+					item: "gtceu:glass_dust"
+					type: "item"
+				}
+				{
+					id: "32D216E3569E5F42"
+					item: "minecraft:glass"
+					type: "item"
+				}
+			]
+			title: "玻璃生产"
+			x: -1.5d
+			y: 6.0d
+		}
+		{
+			dependencies: ["3908F6D558743C37"]
+			dependency_requirement: "all_started"
+			description: [
+				"要想玩转机械动力，工程师护目镜和扳手必不可少。"
+				""
+				"&l工程师护目镜&r"
+				""
+				"工程师护目镜可以用于查看凭肉眼无法看到的详细信息，如应力、转速的具体数值，机器的状态等。了解这些信息将会对生产线的建设和机器问题的排查起到巨大帮助。"
+				"将护目镜穿戴在头盔槽位以发挥作用，如果你需要穿戴其他的头盔装备，也可以将其放在curios提供的头饰槽位里。"
+				""
+				"&l扳手（机械动力）&r"
+				""
+				"扳手在机械动力中是一个非常强大的调节工具，可以调节机器的朝向、部分状态、具体设置等，也可以在下蹲-右键时拆除机械动力的方块并直接回收到物品栏中，避免用其他工具拆除时的耐久消耗和复杂环境中操作时的麻烦。"
+			]
+			icon: "create:goggles"
+			id: "59E598155BCBD7F0"
+			rewards: [{
+				id: "06282D63874176E4"
+				item: "gtceu:cupronickel_credit"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.5d
+			subtitle: "观察，调节"
+			tasks: [
+				{
+					id: "27040A17207481B4"
+					item: "create:wrench"
+					type: "item"
+				}
+				{
+					id: "2227E86840D47B55"
+					item: "create:goggles"
+					type: "item"
+				}
+			]
+			title: "工程师的心头好"
+			x: 0.0d
+			y: 9.0d
+		}
+		{
+			dependencies: [
+				"77CC1C77F34FCB48"
+				"4CD1BB1DD8BE3FE4"
+			]
+			description: [
+				"        如果觉得搭建一个机械手打印机有点麻烦的话，这里提供了一种懒人化的方法。"
+				"        一个蓝图加农炮，在装有火药作为能源时，可以利用周围箱子内的材料来帮助你打印蓝图中的建筑，虽然它的打印速度并不算特别快。"
+				"        此外，它还可以帮助你快速列出当前蓝图中需要的材料列表。"
+			]
+			id: "1D2D40C204353BE5"
+			size: 1.5d
+			subtitle: "高保真3D打印"
+			tasks: [{
+				id: "4066968D0B23B846"
+				item: "create:schematicannon"
+				type: "item"
+			}]
+			title: "蓝图大炮"
+			x: 21.0d
+			y: 5.25d
+		}
+		{
+			dependencies: ["73869DD50D30F57F"]
+			description: [
+				"        农民的生活受够了？是时候拥抱工业了——从齿轮的传动开始！"
+				"        在这一阶段你需要建立起你的机械动力生产设施，为进一步的发展作准备。"
+				"        大多数机械动力机器的正常运作需要足够的应力，一个应力网络因此可以分为三个部分，很快你便会在接下来的任务中接触到它们："
+				"                1.应力源：产生应力，并将应力输入至其接入的网络中。"
+				"                2.传递部件：主要有大小齿轮、传动杆、传送带、齿轮箱等，负责将应力网络中的各个部分相互连接起来。"
+				"                3.应力消耗端：消耗应力工作的机器，从其接入的应力网络中提取所需的应力，如果网络中的应力余量不足，则会发生过载现象，导致整个网络中的所有机器停运。"
+				"        在开始搭建应力网络之前，你还差一件事情——&l做一些安山合金&r。"
+				""
+				"        注：机械动力的大多数机器和部件都带有&a思索功能（光标置于其上后长按[W]键）&r，通过动画形式帮助新手了解其功能。"
+			]
+			icon: "create:wrench"
+			id: "47A9326BF7B7D56B"
+			size: 4.0d
+			tasks: [{
+				id: "5C3808A885853FE7"
+				title: "进入下界"
+				type: "checkmark"
+			}]
+			title: "欢迎来到机械动力"
+			x: -7.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"77CC1C77F34FCB48"
+				"4CD1BB1DD8BE3FE4"
+			]
+			description: [
+				"        您是否为稀有矿脉的枯竭而感到烦恼？是否厌倦了不断下矿的过程？"
+				"        机械动力附属提供的矿物钻井和流体提取井将会帮你从中解放出来！"
+				"        首先，你需要制作一把探矿杖，它可以探测周围一定区域内的基岩矿脉情况，并告诉你距离最近的矿脉以及与你之间的距离。"
+				"        在这个过程中，你可以四处走动一段距离，再次进行探测，观察矿脉与你距离的变化情况，一步步定位到矿脉所处的区块。"
+				"        定位到矿脉所在区块后，便可以在该区块中放下钻井，准备钻探了（如果矿脉是流体的话则需要用流体提取井而不是矿物钻井）。"
+				"        在开始钻探前，你还需要向钻井中接入足够多的应力，并根据需求通入额外的润滑液体（下界矿脉为熔岩，末地矿脉为龙息）。"
+				"        机器开始工作后，每隔一段时间便会产出一些矿物（或流体），并尝试从输出端输出。转速越高，收获速度越快。"
+				"        注：基岩钻井的应力消耗非常大，你可能需要在周围准备多个九级蒸汽锅炉才能支撑其工作！"
+			]
+			icon: "createoreexcavation:drilling_machine"
+			id: "07DF3FCCDFE32F3E"
+			size: 1.5d
+			subtitle: "向地层深处索取……"
+			tasks: [
+				{
+					id: "40EFFFAD32BEB83C"
+					item: "createoreexcavation:vein_finder"
+					type: "item"
+				}
+				{
+					id: "22C9CC057C86FD5A"
+					item: "createoreexcavation:drilling_machine"
+					type: "item"
+				}
+				{
+					id: "5E0470AC33A660C0"
+					item: "createoreexcavation:extractor"
+					type: "item"
+				}
+			]
+			title: "早期基岩采矿"
+			x: 21.0d
+			y: 7.5d
+		}
+		{
+			dependencies: ["4CD1BB1DD8BE3FE4"]
+			description: ["        黄铜无人机是你的得力助手，为其安装功能模块，利用遥控器操控它，即可为你进行战斗、运输、收获等工作。"]
+			icon: "create_sa:brass_drone_item"
+			id: "2D0AFC3849A3DC79"
+			size: 1.5d
+			subtitle: "你的蒸汽朋克无人机伙伴"
+			tasks: [
+				{
+					id: "6595665EF2B6B1DD"
+					item: "create_sa:drone_controller"
+					type: "item"
+				}
+				{
+					id: "390FF18FD91D78E4"
+					item: "create_sa:brass_drone_item"
+					type: "item"
+				}
+			]
+			title: "大疆动力"
+			x: 13.5d
+			y: 3.75d
+		}
+		{
+			dependencies: ["45C962A643A3C85D"]
+			description: [
+				"        纸是传递信息的重要载体，也用于各种纸质物件的制造中。"
+				"        你可以通过农夫乐事的树皮造纸，但那样效率低而且也不方便自动化。"
+				"        在有了辊压机和工作盆后，你可以将甘蔗在水中压成纸了，而甘蔗是可以大量种植并自动收割的。"
+				"        当然，使用格雷科技的木屑和机器造纸可以获得更高的产量。"
+			]
+			icon: "minecraft:paper"
+			id: "259A1A0B8FB76F20"
+			require_sequential_tasks: true
+			rewards: [{
+				count: 6
+				id: "098378B6A1617069"
+				item: "gtceu:copper_credit"
+				type: "item"
+			}]
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				id: "3CF38600B87B262C"
+				item: "minecraft:paper"
+				type: "item"
+			}]
+			title: "造纸术"
+			x: 2.25d
+			y: 0.75d
+		}
+		{
+			dependencies: ["2730F5FACA44852C"]
+			description: ["        你现在可以制造机械动力的特色远程武器——土豆加农炮了。无需火药，右键扳动机械即可开炮。不过它有一个令人哭笑不得的特点，那些“炮弹”真的只是土豆……真的。"]
+			icon: {
+				Count: 1
+				id: "create:potato_cannon"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "5AAE960548BD0B75"
+			size: 1.5d
+			subtitle: "拥有一把土豆加农炮"
+			tasks: [{
+				id: "2E140CB6C402A88F"
+				item: {
+					Count: 1
+					id: "create:potato_cannon"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "倾泻土豆？"
+			x: 19.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["77CC1C77F34FCB48"]
+			description: [
+				"        弓弩射不准，土豆加农炮打不中？"
+				"        是时候让那些怪物体验体验火枪的威力了！"
+				"        在出征之前，别忘记带上许多的纸包弹药哦~"
+				"      （火枪还有手枪版本和带刺刀版本，可以按照需要制造）"
+			]
+			icon: {
+				Count: 1
+				id: "musketmod:musket"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "79C04D78CEB3F90E"
+			size: 1.5d
+			subtitle: "你的第一把火器——燧发枪"
+			tasks: [{
+				id: "695E7AA3BA932693"
+				item: {
+					Count: 1
+					id: "musketmod:musket"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "火枪手"
+			x: 24.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["65DDEA2AF978F2A9"]
+			description: [
+				"        让星宝石兽在跑轮里一直跑似乎有点不太人道，但它们确实愿意这么做，尤其是眼前有金块的时候。"
+				"        运作中的跑轮可以产出相当于水车的应力，且只有1格占地面积。"
+			]
+			hide_dependency_lines: true
+			id: "6F17997BE99C757F"
+			size: 1.5d
+			subtitle: "关于星宝石兽跑轮"
+			tasks: [{
+				id: "51DA1495E6D25131"
+				item: "ars_creo:starbuncle_wheel"
+				type: "item"
+			}]
+			title: "星宝石仓鼠"
+			x: 1.5d
+			y: -3.75d
+		}
+	]
+	title: "安山与黄铜"
+}

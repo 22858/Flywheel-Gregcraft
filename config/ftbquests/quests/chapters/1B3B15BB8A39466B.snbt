@@ -1,0 +1,342 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "1B3B15BB8A39466B"
+	group: "4D9905FD3514175F"
+	hide_quest_details_until_startable: true
+	hide_quest_until_deps_visible: true
+	icon: "createchromaticreturn:chromatic_compound"
+	id: "1B3B15BB8A39466B"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["5B6BAEAB218D7227"]
+			description: [
+				"        通过超级加热，你可以制造液态超经验，从而进一步生产异彩化合物！"
+				"        这种神奇的化合物具有无穷的魔力，你可以通过各种方法将它们转变为不同的高级魔力锭！"
+				"        继续深入研究发现，一些魔力锭似乎蕴含着有关世界本源的奥秘，而这些魔力锭的制造相比其他的来说要困难不少。为此，你还需要发展新生魔艺以获取制造这些魔力锭所必需的高级精华。"
+			]
+			icon: "createchromaticreturn:chromatic_compound"
+			id: "38719934201BF903"
+			shape: "circle"
+			size: 4.0d
+			subtitle: "当材料注入魔法"
+			tasks: [{
+				id: "5C0F8122F6FCD8A8"
+				type: "checkmark"
+			}]
+			title: "异彩时代"
+			x: -12.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["38719934201BF903"]
+			id: "3F4D5E7F92E66325"
+			rewards: [{
+				count: 2
+				id: "0D9D76C8693E315E"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "7EB72CD3B85ADAC4"
+				item: "gtceu:refined_radiance_ingot"
+				type: "item"
+			}]
+			title: "光辉灿烂"
+			x: -7.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["38719934201BF903"]
+			id: "551E4A2AB64EA5A1"
+			rewards: [{
+				count: 2
+				id: "1307186B7B84FD8D"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "3938142CA5F93F0C"
+				item: "gtceu:shadow_steel_ingot"
+				type: "item"
+			}]
+			title: "暗影之力"
+			x: -7.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["38719934201BF903"]
+			description: [
+				"        精准采集附魔常常是可遇而不可求的，然而现在有一种方法可以让你掌握主动权。"
+				"        将异彩化合物与丝线、下界之星混合，可以得到丝绸锭，这种锭具有丝绸般的特性，它可以为你的工具附上精准采集的特性！"
+			]
+			id: "1B2ED12204CB5BFE"
+			shape: "circle"
+			size: 1.5d
+			tasks: [{
+				id: "3E34F16B16DF2C43"
+				item: "createchromaticreturn:silkstrum"
+				type: "item"
+			}]
+			title: "丝绸之锭"
+			x: -10.5d
+			y: -0.75d
+		}
+		{
+			dependencies: ["3F4D5E7F92E66325"]
+			id: "6A3D09177DFC4EF1"
+			rewards: [{
+				id: "12A2A9F205A0CD89"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "1E384A0F62FB0D62"
+				item: "gtceu:multiplite_ingot"
+				type: "item"
+			}]
+			title: "耀眼明星"
+			x: -1.0d
+			y: 1.0d
+		}
+		{
+			dependencies: ["38719934201BF903"]
+			description: [
+				"        将异彩化合物与一些代表幸运的东西混合，可以得到好运条！"
+				"        它能够给一些稀有矿石带来大量的额外产出！"
+				"（目前仅支持原版矿石）"
+			]
+			id: "7A6138E3059A760D"
+			size: 1.5d
+			subtitle: "时运 enhanchment.level.114514"
+			tasks: [{
+				id: "59AE1198578F7398"
+				item: "createchromaticreturn:fortunite_bar"
+				type: "item"
+			}]
+			title: "好运滚滚"
+			x: -13.5d
+			y: -0.75d
+		}
+		{
+			dependencies: ["38719934201BF903"]
+			id: "7F15C0CDEC43C8BE"
+			rewards: [{
+				count: 4
+				id: "4CD4E145C2484B4D"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "60E890043D7013A7"
+				item: "kubejs:naturium"
+				type: "item"
+			}]
+			title: "自然之锭"
+			x: -7.0d
+			y: 7.0d
+		}
+		{
+			dependencies: ["551E4A2AB64EA5A1"]
+			id: "43574B01E83ABE3A"
+			rewards: [{
+				id: "02595BF7C4DA990A"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "485D2E248D98AEF0"
+				item: "gtceu:durasteel_ingot"
+				type: "item"
+			}]
+			title: "不朽之力"
+			x: -1.0d
+			y: 5.0d
+		}
+		{
+			dependencies: [
+				"7F15C0CDEC43C8BE"
+				"1518FE8D30EAB617"
+			]
+			id: "39D01876D86FAD36"
+			rewards: [
+				{
+					id: "39BDADCEFCDE3641"
+					item: "gtceu:naquadah_credit"
+					type: "item"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "3E580267101D1C6A"
+					table_id: 2848324682372958615L
+					type: "loot"
+				}
+			]
+			shape: "gear"
+			size: 3.0d
+			tasks: [{
+				id: "19364501D772F4EF"
+				item: "kubejs:ultimate_ingot"
+				type: "item"
+			}]
+			title: "止于至善"
+			x: 6.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["4038455094BD3640"]
+			description: [
+				"        你现在可以准备将武器升级换代至现代枪械了。"
+				"        但首先，你需要准备一些枪械制造套件，它们由金属部件和光辉构件在组装机里组合而成（再加上一些粘合剂）。"
+				"        使用的金属档次越高，枪械套件的产量也越高。"
+			]
+			id: "1EABDB906F3DC6AD"
+			size: 1.5d
+			subtitle: "比AK-47更耐操"
+			tasks: [{
+				id: "502BBE3BFA7D219A"
+				item: "kubejs:gunium"
+				type: "item"
+			}]
+			title: "枪械组装"
+			x: -13.5d
+			y: 10.5d
+		}
+		{
+			dependencies: ["4038455094BD3640"]
+			description: [
+				"        你那老旧的纸包弹药早已不适合现代枪械了，搭建一个弹药装配机多方块结构来生产现代弹药吧。"
+				"        对于大多数普通的子弹而言，生产分为两步，第一步是制造弹壳，第二步则是将弹壳进一步加工组装形成弹药，两步均可在弹药装配机里完成。"
+				"        此外，霰弹、榴弹、火箭弹等特殊弹药也可在该机器中生产。"
+			]
+			id: "0AA6E1C978BF5018"
+			size: 1.5d
+			subtitle: "看着就疼"
+			tasks: [{
+				id: "6B61C51920CB8B09"
+				item: "gtceu:ammo_assembler"
+				type: "item"
+			}]
+			title: "弹壳材料"
+			x: -10.5d
+			y: 10.5d
+		}
+		{
+			dependencies: [
+				"1EABDB906F3DC6AD"
+				"0AA6E1C978BF5018"
+			]
+			description: ["        你现在有了生产枪械组装套件和弹药的能力，制作一个枪械工作台，尽情地制造枪械和弹药，随后向敌人倾泻你的子弹吧！"]
+			id: "4D6FC51F573ACB18"
+			size: 1.5d
+			subtitle: "还不修法控枪？"
+			tasks: [{
+				id: "4CF8DF4A53AFDDFA"
+				item: "cgm:workbench"
+				type: "item"
+			}]
+			title: "自由方块人，枪击每一天！"
+			x: -12.0d
+			y: 12.75d
+		}
+		{
+			dependencies: [
+				"551E4A2AB64EA5A1"
+				"3F4D5E7F92E66325"
+			]
+			id: "303551F0A663B339"
+			rewards: [{
+				id: "52D974CBD1141045"
+				item: "gtceu:platinum_credit"
+				type: "item"
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "3C0BB0C1C9DA44D7"
+				item: "gtceu:yinyang_ingot"
+				type: "item"
+			}]
+			title: "阴阳调和"
+			x: -4.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"6A3D09177DFC4EF1"
+				"43574B01E83ABE3A"
+				"303551F0A663B339"
+			]
+			id: "1518FE8D30EAB617"
+			rewards: [{
+				id: "4BE219DDF2EA1CC4"
+				item: "gtceu:osmium_credit"
+				type: "item"
+			}]
+			shape: "square"
+			size: 2.0d
+			tasks: [{
+				id: "13DA29F1D6DF7F6A"
+				item: "gtceu:reinforced_yinyang_ingot"
+				type: "item"
+			}]
+			title: "更完美的阴阳调和"
+			x: 1.0d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"551E4A2AB64EA5A1"
+				"3F4D5E7F92E66325"
+			]
+			icon: "createchromaticreturn:refined_mechanism"
+			id: "4038455094BD3640"
+			rewards: [{
+				count: 4
+				id: "4DB8E65ADE9C597E"
+				item: "gtceu:gold_credit"
+				type: "item"
+			}]
+			shape: "circle"
+			size: 2.0d
+			tasks: [
+				{
+					id: "28E474A44340DA98"
+					item: "createchromaticreturn:shadow_mechanism"
+					type: "item"
+				}
+				{
+					id: "70F8BCBD2F1FE84F"
+					item: "createchromaticreturn:magmatic_mechanism"
+					type: "item"
+				}
+				{
+					id: "2CAE0FCEC037A29A"
+					item: "createchromaticreturn:annealed_mechanism"
+					type: "item"
+				}
+				{
+					id: "59F13516B2C5B780"
+					item: "createchromaticreturn:refined_mechanism"
+					type: "item"
+				}
+			]
+			title: "光辉组构"
+			x: -12.0d
+			y: 8.0d
+		}
+	]
+	title: "异彩时代"
+}
