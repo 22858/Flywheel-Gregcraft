@@ -1,0 +1,11 @@
+[features]
+xp_merge_chance = 70
+item_merge_radius = 0.625
+xp_merge_radius = 0.8
+[optimizations]
+reduce_sync_loads = true
+cache_ticking_chunks = true
+fast_biome_lookups = true
+[commands]
+command_status = false
+command_mobcaps = false

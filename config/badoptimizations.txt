@@ -1,0 +1,16 @@
+enable_lightmap_caching: true
+lightmap_time_change_needed_for_update: 100
+enable_sky_color_caching: false
+skycolor_time_change_needed_for_update: 6
+enable_debug_renderer_disable_if_not_needed: true
+enable_fps_string_optimization: false
+enable_particle_manager_optimization: true
+enable_toast_optimizations: true
+enable_sky_angle_caching_in_worldrenderer: true
+enable_entity_renderer_caching: false
+enable_block_entity_renderer_caching: false
+enable_entity_flag_caching: false
+enable_remove_redundant_fov_calculations: false
+enable_remove_tutorial_if_not_demo: true
+show_f3_text: false
+config_version: 1

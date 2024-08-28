@@ -1,0 +1,12 @@
+[entity]
+[entity.mob]
+[entity.mob.remove_look_random]
+remove_look_random = true
+[entity.mob.replace_look_controller]
+replace_look_controller = true
+[entity.fish]
+remove_panic = true
+remove_puff = true
+[entity.squid]
+remove_flee = true
+remove_random_move = true
